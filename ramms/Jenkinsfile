@@ -1,7 +1,7 @@
 node{
 stage('SCM checkout')
 {
-  git 'https://github.com/Rameshrs777/Batch24'
+  git 'https://github.com/Rameshrs777/Batch24/blob/master/ramms'
 }
 stage('Compile-package')
 {
